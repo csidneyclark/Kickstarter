@@ -6,7 +6,6 @@ Over $2 billion has been raised using the massively successful crowdfunding serv
 
 ## Guidelines
 
-![Kickstarter Table](Images/FullTable.PNG
 Modify and analyze the data of 4,000 past Kickstarter projects as you attempt to uncover some market trends.
 
 * Use conditional formatting to fill each cell in the `state` column with a different color, depending on whether the associated campaign was successful, failed, or canceled, or is currently live.
@@ -19,23 +18,17 @@ Modify and analyze the data of 4,000 past Kickstarter projects as you attempt to
 
   * Create two new columns, one called `Category` at Q and another called `Sub-Category` at R, which use formulas to split the `Category and Sub-Category` column into two parts.
 
-  ![Category Stats](Images/CategoryStats.PNG)
-
   * Create a new sheet with a pivot table that will analyze your initial worksheet to count how many campaigns were successful, failed, canceled, or are currently live per **category**.
 
   * Create a stacked column pivot chart that can be filtered by country based on the table you have created.
-
-  ![Subcategory Stats](Images/SubcategoryStats.PNG)
 
   * Create a new sheet with a pivot table that will analyze your initial sheet to count how many campaigns were successful, failed, or canceled, or are currently live per **sub-category**.
 
   * Create a stacked column pivot chart that can be filtered by country and parent-category based on the table you have created.
 
-* The dates stored within the `deadline` and `launched_at` columns use Unix timestamps. Fortunately for us, [there is a formula](https://www.extendoffice.com/documents/excel/2473-excel-timestamp-to-date.html) that can be used to convert these timestamps to a normal date.
+  * The dates stored within the `deadline` and `launched_at` columns use Unix timestamps. Create a new column named `Date Created Conversion` that will convert the data contained within `launched_at` into Excel's date format.
 
-  * Create a new column named `Date Created Conversion` that will use [this formula](https://www.extendoffice.com/documents/excel/2473-excel-timestamp-to-date.html) to convert the data contained within `launched_at` into Excel's date format.
-
-  * Create a new column named `Date Ended Conversion` that will use [this formula](https://www.extendoffice.com/documents/excel/2473-excel-timestamp-to-date.html) to convert the data contained within `deadline` into Excel's date format.
+  * Create a new column named `Date Ended Conversion` that will convert the data contained within `deadline` into Excel's date format.
 
   ![Outcomes Based on Launch Date](Images/LaunchDateOutcomes.PNG)
 

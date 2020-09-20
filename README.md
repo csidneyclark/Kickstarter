@@ -49,7 +49,7 @@ Modify and analyze the data of 4,000 past Kickstarter projects as you attempt to
 2. What are some limitations of this dataset?
 3. What are some other possible tables and/or graphs that we could create?
 
-## Bonus
+## Additional Analysis
 
 * Create a new sheet with 8 columns:
 
@@ -85,11 +85,9 @@ Modify and analyze the data of 4,000 past Kickstarter projects as you attempt to
 
 * Create a line chart that graphs the relationship between a goal's amount and its chances at success, failure, or cancellation.
 
-## Bonus Statistical Analysis
+## Further Statistical Analysis
 
 If one were to describe a successful crowdfunding campaign, most people would use the number of campaign backers as a metric of success. One of the most efficient ways that data scientists characterize a quantitative metric, such as the number of campaign backers, is by creating a summary statistics table.
-
-For those looking for an additional challenge, you will evaluate the number of backers of successful and unsuccessful campaigns by creating **your own** summary statistics table.
 
 * Create a new worksheet in your workbook, and create a column each for the number of backers of successful campaigns and unsuccessful campaigns.
 
@@ -112,11 +110,5 @@ For those looking for an additional challenge, you will evaluate the number of b
 * Use your data to determine whether the mean or the median summarizes the data more meaningfully.
 
 * Use your data to determine if there is more variability with successful or unsuccessful campaigns. Does this make sense? Why or why not?
-
-## Submission
-
-* To submit your homework, upload the solution and files to a GitHub repo, Dropbox, or Google Drive and submit the link to <https://bootcampspot.com/>.
-
-- - -
 
 © 2019 Trilogy Education Services

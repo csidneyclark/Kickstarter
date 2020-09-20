@@ -1,4 +1,4 @@
-# Kickstarter Project
+# Kickstarter Analysis
 
 ## Background
 
